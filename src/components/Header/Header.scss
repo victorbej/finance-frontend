@@ -1,0 +1,23 @@
+.header {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin: 0.7em;
+  &__title {
+    text-transform: uppercase;
+    font-size: 1em;
+  }
+  &__button {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: #ffffff;
+    transition: all ease-in-out 0.4s;
+    cursor: pointer;
+    &:hover {
+      -webkit-transform: translateY(-3px);
+      transform: translateY(-3px);
+      opacity: .7;
+    }
+  }
+}
