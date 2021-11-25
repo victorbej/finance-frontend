@@ -1,12 +1,14 @@
 import './Header.scss';
+import { Link } from "react-router-dom";
 
 function Header() {
     return (
         <header className="header">
             <h1 className="header__title">Финансовый конструктор</h1>
             <div className="header__user">
-                <button type="button" className="header__button">Войти</button>
-                <button type="button" className="header__button">Регистрация</button>
+                <Link className="header__link" to="/tools">Инструменты</Link>
+                <Link className="header__link" to="/login">Войти</Link>
+                <Link className="header__link" to="/registration">Регистрация</Link>
             </div>
         </header>
     );
