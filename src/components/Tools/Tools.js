@@ -6,7 +6,7 @@ function Tools() {
         <nav className="tools">
             <ul className="tools__container">
                 <li className="tools__list">
-                    <Link className="tools__item" to="/constructor">Конструктор: составьте список финансовых целей</Link>
+                    <Link className="tools__item" to="/targets">Конструктор: составьте список финансовых целей</Link>
                 </li>
                 <li className="tools__list">
                     <Link className="tools__item" to="/calculator">Калькулятор ипотеки: рассчитайте стоимость квартиры</Link>
