@@ -1,11 +1,16 @@
-import './Targets.scss';
+import React from 'react';
+import PostTargets from './PostTargets';
 
 function Targets() {
+
+    function addTarget(e) {
+        e.preventDefault();
+        console.log('Clicked')
+    }
+
     return (
-        <div>
-            <p>Targets</p>
-        </div>
-    );
+        <PostTargets onClick={addTarget} />
+    )
 }
 
 export default Targets;

@@ -1,0 +1,10 @@
+.Targets {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.target {
+  border: 1px solid khaki;
+  cursor: pointer;
+}
