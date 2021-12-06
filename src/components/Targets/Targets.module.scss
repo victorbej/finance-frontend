@@ -1,0 +1,21 @@
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+  perspective: 300px;
+  padding-bottom: 5rem;
+}
+
+.button {
+  width: 100px;
+  height: 100px;
+  background-color: #30a14e;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  transition: 1s all;
+  cursor: pointer;
+  &:hover {
+    transform: rotateZ(40deg) scale(1.2);
+  }
+}
