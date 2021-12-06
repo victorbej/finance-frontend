@@ -5,6 +5,7 @@ import Footer from '../Footer/Footer';
 import Login from '../Login/Login';
 import Registration from '../Registration/Registration';
 import Targets from '../Targets/Targets';
+import Inputs from '../Inputs/Inputs';
 import Calculator from '../Calculator/Calculator';
 import Purchase from '../Purchase/Purchase';
 
@@ -25,6 +26,9 @@ function App() {
       </Routes>
       <Routes>
         <Route path="/targets" element={<Targets />} />
+      </Routes>
+      <Routes>
+        <Route path="/inputs" element={<Inputs />} />
       </Routes>
       <Routes>
         <Route path="/calculator" element={<Calculator />} />

@@ -9,6 +9,9 @@ function Tools() {
                     <Link className="tools__item" to="/targets">Конструктор: составьте список финансовых целей</Link>
                 </li>
                 <li className="tools__list">
+                    <Link className="tools__item" to="/inputs">Составить список самомтоятельно</Link>
+                </li>
+                <li className="tools__list">
                     <Link className="tools__item" to="/calculator">Калькулятор ипотеки: рассчитайте стоимость квартиры</Link>
                 </li>
                 <li className="tools__list">

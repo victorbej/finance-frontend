@@ -1,0 +1,17 @@
+.Inputs {
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  margin-bottom: .4em;
+}
+.inputWrapper {
+  display: flex;
+  flex-direction: row;
+}
+.input {
+  width: 250px;
+}
+.lists {
+  padding-top: 1em;
+}
