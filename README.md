@@ -1,4 +1,11 @@
-# Getting Started with Create React App
+# Основные инструменты, которые использованы в проекте:
+
+[Финансовый Констроктор](https://victorbej.github.io/finance-frontend)
+
+На данный момент доступны: конструктор финансовых целей (при нажатии на готовые "цели") и самостоятельный ввод "целей" в поле инпут. Для этого необходимо зайти на вкладку Инструменты и выбрать соответствующее действие.
+
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
