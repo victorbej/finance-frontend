@@ -6,7 +6,10 @@
     justify-content: center;
   }
   &__item {
-    text-decoration: none;
+    text-decoration: underline;
     color: #ffffff;
+    &:hover {
+      opacity: 0.6;
+    }
   }
 }
