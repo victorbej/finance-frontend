@@ -18,7 +18,7 @@ function App() {
     <div className="App">
       <Header />
       <Routes>
-        <Route path="/" element={<Main />} />
+        <Route path="/finance-frontend" element={<Main />} />
       </Routes>
       <Routes>
         <Route path="/tools" element={<Tools />} />
