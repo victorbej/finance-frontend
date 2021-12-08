@@ -8,13 +8,18 @@ import Targets from '../Targets/Targets';
 import Inputs from '../Inputs/Inputs';
 import Calculator from '../Calculator/Calculator';
 import Purchase from '../Purchase/Purchase';
+import Main from '../Main/Main';
 
 import { Routes, Route } from 'react-router-dom';
+
 
 function App() {
   return (
     <div className="App">
       <Header />
+      <Routes>
+        <Route path="/" element={<Main />} />
+      </Routes>
       <Routes>
         <Route path="/tools" element={<Tools />} />
       </Routes>
