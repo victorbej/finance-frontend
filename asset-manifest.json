@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/finance-frontend/static/css/main.e783fe2a.chunk.css",
-    "main.js": "/finance-frontend/static/js/main.0e289f39.chunk.js",
-    "main.js.map": "/finance-frontend/static/js/main.0e289f39.chunk.js.map",
+    "main.js": "/finance-frontend/static/js/main.bb1730b6.chunk.js",
+    "main.js.map": "/finance-frontend/static/js/main.bb1730b6.chunk.js.map",
     "runtime-main.js": "/finance-frontend/static/js/runtime-main.ff9c0dd4.js",
     "runtime-main.js.map": "/finance-frontend/static/js/runtime-main.ff9c0dd4.js.map",
     "static/js/2.358bf5e2.chunk.js": "/finance-frontend/static/js/2.358bf5e2.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.ff9c0dd4.js",
     "static/js/2.358bf5e2.chunk.js",
     "static/css/main.e783fe2a.chunk.css",
-    "static/js/main.0e289f39.chunk.js"
+    "static/js/main.bb1730b6.chunk.js"
   ]
 }
