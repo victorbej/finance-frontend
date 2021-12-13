@@ -9,7 +9,7 @@ function Tools() {
                     <Link className="tools__item" to="/targets">Конструктор: составьте список финансовых целей</Link>
                 </li>
                 <li className="tools__list">
-                    <Link className="tools__item" to="/inputs">Составить список самостоятельно</Link>
+                    <Link className="tools__item" to="/blog">Блог об инвестициях</Link>
                 </li>
                 <li className="tools__list">
                     <Link className="tools__item" to="/calculator">Калькулятор ипотеки: рассчитайте стоимость квартиры</Link>

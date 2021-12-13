@@ -1,0 +1,35 @@
+.pageTitle {
+  margin: 2em 0;
+  font-size: 2em;
+}
+.postImage {
+  background-size: contain;
+  width: 600px;
+  height: 500px;
+}
+.postTitle {
+  margin: 0.5em 0;
+}
+.postBody {
+  font-size: 0.9em;
+  margin: 1em 0;
+}
+.inputs {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 1em;
+}
+.input {
+  min-height: 25px;
+}
+@media screen and (min-width: 900px) {
+  .postBody {
+    max-width: 60%;
+  }
+}
+@media screen and (max-width: 620px) {
+  .postImage {
+    width: 300px;
+    height: 200px;
+  }
+}

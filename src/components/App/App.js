@@ -5,7 +5,7 @@ import Footer from '../Footer/Footer';
 import Login from '../Login/Login';
 import Registration from '../Registration/Registration';
 import Targets from '../Targets/Targets';
-import Inputs from '../Inputs/Inputs';
+import CreatePosts from '../CreatePosts/CreatePosts';
 import Calculator from '../Calculator/Calculator';
 import Purchase from '../Purchase/Purchase';
 import Main from '../Main/Main';
@@ -33,7 +33,7 @@ function App() {
         <Route path="/targets" element={<Targets />} />
       </Routes>
       <Routes>
-        <Route path="/inputs" element={<Inputs />} />
+        <Route path="/blog" element={<CreatePosts />} />
       </Routes>
       <Routes>
         <Route path="/calculator" element={<Calculator />} />
