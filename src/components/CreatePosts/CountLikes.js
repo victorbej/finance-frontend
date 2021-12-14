@@ -1,5 +1,6 @@
 import React from "react";
-
+import ButtonGroup from '@mui/material/ButtonGroup';
+import Button from '@mui/material/Button';
 import classes from './Posts.module.scss';
 
 function CountLikes() {
@@ -16,8 +17,10 @@ function CountLikes() {
   return (
     <div className={classes.counter}>
       <h2 className={classes.count}>{like}</h2>
-      <button onClick={likeHandler}>👍</button>
-      <button onClick={dislikeHandler}>👎</button>
+      <ButtonGroup variant="text" aria-label="text button group">
+        <Button onClick={likeHandler}>👍</Button>
+        <Button onClick={dislikeHandler}>👎</Button>
+      </ButtonGroup>
     </div>
   );
 }

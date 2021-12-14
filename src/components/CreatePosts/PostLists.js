@@ -1,4 +1,6 @@
 import React from 'react';
+import Button from '@mui/material/Button';
+import DeleteIcon from '@mui/icons-material/Delete';
 import CountLikes from './CountLikes';
 
 import classes from './Posts.module.scss';
@@ -13,7 +15,7 @@ function PostLists(props) {
                     <img className={classes.postImage} src={post.url} alt={post.title} />
                     <p className={classes.postBody}>{post.body}</p>
                     <div className={classes.container}>
-                        <button className={classes.deleteButton} onClick={() => props.remove(post)}>Удалить пост</button>
+                        <Button variant="contained" className={classes.deleteButton} startIcon={<DeleteIcon />} onClick={() => props.remove(post)}>Удалить пост</Button>
                         <CountLikes />
                     </div>
 

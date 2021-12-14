@@ -27,7 +27,10 @@ function CreatePosts() {
         <div className="Posts">
             <h2 className={classes.pageTitle}>{pageTitle}</h2>
             <div className="container">
-                <PostLists remove={remove} posts={posts} />
+                {posts.length !== 0
+                    ? <PostLists remove={remove} posts={posts} />
+                    : <h2 className={classes.empty}>Посты не найдены, их необходимо создать...</h2>
+                }
                 <PostForm create={createPost} />
             </div>
         </div>
