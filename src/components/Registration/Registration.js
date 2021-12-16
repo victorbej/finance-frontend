@@ -1,7 +1,6 @@
 import React from 'react';
 import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
-import CssBaseline from '@mui/material/CssBaseline';
 import TextField from '@mui/material/TextField';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import Checkbox from '@mui/material/Checkbox';
@@ -16,7 +15,7 @@ import { createTheme, ThemeProvider } from '@mui/material/styles';
 const theme = createTheme({
     palette: {
         background: { default: "#161616" },
-        text: { primary: "#fff", secondary: "#fff" }
+        text: { primary: "rgb(255, 255, 255)", secondary: "rgba(255, 255, 255, .5)" }
     },
 });
 
@@ -33,7 +32,6 @@ function Registration() {
     return (
         <ThemeProvider theme={theme}>
             <Container component="main" maxWidth="xs">
-                <CssBaseline />
                 <Box
                     sx={{
                         marginTop: 8,
