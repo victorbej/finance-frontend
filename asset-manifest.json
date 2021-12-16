@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/finance-frontend/static/css/main.0ce60dca.chunk.css",
-    "main.js": "/finance-frontend/static/js/main.5433e19f.chunk.js",
-    "main.js.map": "/finance-frontend/static/js/main.5433e19f.chunk.js.map",
+    "main.css": "/finance-frontend/static/css/main.3de0d36d.chunk.css",
+    "main.js": "/finance-frontend/static/js/main.90ceaee3.chunk.js",
+    "main.js.map": "/finance-frontend/static/js/main.90ceaee3.chunk.js.map",
     "runtime-main.js": "/finance-frontend/static/js/runtime-main.ff9c0dd4.js",
     "runtime-main.js.map": "/finance-frontend/static/js/runtime-main.ff9c0dd4.js.map",
-    "static/js/2.6edcd72b.chunk.js": "/finance-frontend/static/js/2.6edcd72b.chunk.js",
-    "static/js/2.6edcd72b.chunk.js.map": "/finance-frontend/static/js/2.6edcd72b.chunk.js.map",
+    "static/js/2.a4797c57.chunk.js": "/finance-frontend/static/js/2.a4797c57.chunk.js",
+    "static/js/2.a4797c57.chunk.js.map": "/finance-frontend/static/js/2.a4797c57.chunk.js.map",
     "index.html": "/finance-frontend/index.html",
-    "static/css/main.0ce60dca.chunk.css.map": "/finance-frontend/static/css/main.0ce60dca.chunk.css.map",
-    "static/js/2.6edcd72b.chunk.js.LICENSE.txt": "/finance-frontend/static/js/2.6edcd72b.chunk.js.LICENSE.txt"
+    "static/css/main.3de0d36d.chunk.css.map": "/finance-frontend/static/css/main.3de0d36d.chunk.css.map",
+    "static/js/2.a4797c57.chunk.js.LICENSE.txt": "/finance-frontend/static/js/2.a4797c57.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.ff9c0dd4.js",
-    "static/js/2.6edcd72b.chunk.js",
-    "static/css/main.0ce60dca.chunk.css",
-    "static/js/main.5433e19f.chunk.js"
+    "static/js/2.a4797c57.chunk.js",
+    "static/css/main.3de0d36d.chunk.css",
+    "static/js/main.90ceaee3.chunk.js"
   ]
 }
