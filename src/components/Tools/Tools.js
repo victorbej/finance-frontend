@@ -1,9 +1,9 @@
 import React from 'react';
 import Stack from '@mui/material/Stack';
 import Box from '@mui/material/Box';
+import Link from '@mui/material/Link';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
-import Button from '@mui/material/Button';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 
 const theme = createTheme({
@@ -26,7 +26,7 @@ export default function Tools() {
                 >
                     <Container maxWidth="sm">
                         <Typography
-                            component="h1"
+                            fontSize="2em"
                             variant="h2"
                             align="center"
                             color="text.paper"
@@ -34,29 +34,30 @@ export default function Tools() {
                         >
                             Инструменты
                         </Typography>
-                        <Typography variant="h5" align="center" color="text.secondary" paragraph>
+                        <Typography variant="h5" align="center" color="text.secondary" fontSize="1em" paragraph>
                             Данные инструменты помогут пользователю запланировать цели,
                             начать вести собственный блог об инвестициях и финансах,
                             рассчитать стоимость квартиры мечты, совершать только осознанные покупки.
                         </Typography>
                         <Stack
                             sx={{ pt: 4 }}
-                            direction="row"
+                            direction="column"
+                            fontSize="1em"
                             spacing={2}
                             justifyContent="center"
                         >
-                            <Button sx={{ textAlign: 'center' }} href="/targets" variant="outlined">
+                            <Link sx={{ textAlign: 'center', fontSize: '1em', padding: '1em' }} underline="hover" href="/targets" variant="body2">
                                 Конструктор целей
-                            </Button>
-                            <Button sx={{ textAlign: 'center' }} href="/blog" variant="outlined">
+                            </Link>
+                            <Link sx={{ textAlign: 'center', fontSize: '1em', padding: '1em' }} underline="hover" href="/blog" variant="body2">
                                 Блог
-                            </Button>
-                            <Button sx={{ textAlign: 'center' }} href="/calculator" variant="outlined">
+                            </Link>
+                            <Link sx={{ textAlign: 'center', fontSize: '1em', padding: '1em' }} underline="hover" href="/calculator" variant="body2">
                                 Калькулятор ипотеки
-                            </Button>
-                            <Button sx={{ textAlign: 'center' }} href="/purchase" variant="outlined">
+                            </Link>
+                            <Link sx={{ textAlign: 'center', fontSize: '1em', padding: '1em' }} underline="hover" href="/purchase" variant="body2">
                                 Осознанные пукупки
-                            </Button>
+                            </Link>
                         </Stack>
                     </Container>
                 </Box>
