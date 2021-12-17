@@ -1,7 +1,7 @@
 import React from 'react';
 import Stack from '@mui/material/Stack';
 import Box from '@mui/material/Box';
-import Link from '@mui/material/Link';
+import { Link } from 'react-router-dom';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
@@ -46,16 +46,16 @@ export default function Tools() {
                             spacing={2}
                             justifyContent="center"
                         >
-                            <Link sx={{ textAlign: 'center', fontSize: '1em', padding: '1em' }} underline="hover" href="/targets" variant="body2">
+                            <Link style={{ textAlign: 'center', color: '#1976d2', fontSize: '1em', padding: '1em' }} to="/targets" variant="body2">
                                 Конструктор целей
                             </Link>
-                            <Link sx={{ textAlign: 'center', fontSize: '1em', padding: '1em' }} underline="hover" href="/blog" variant="body2">
+                            <Link style={{ textAlign: 'center', color: '#1976d2', fontSize: '1em', padding: '1em' }} to="/blog" variant="body2">
                                 Блог
                             </Link>
-                            <Link sx={{ textAlign: 'center', fontSize: '1em', padding: '1em' }} underline="hover" href="/calculator" variant="body2">
+                            <Link style={{ textAlign: 'center', color: '#1976d2', fontSize: '1em', padding: '1em' }} to="/calculator" variant="body2">
                                 Калькулятор ипотеки
                             </Link>
-                            <Link sx={{ textAlign: 'center', fontSize: '1em', padding: '1em' }} underline="hover" href="/purchase" variant="body2">
+                            <Link style={{ textAlign: 'center', color: '#1976d2', fontSize: '1em', padding: '1em' }} to="/purchase" variant="body2">
                                 Осознанные пукупки
                             </Link>
                         </Stack>

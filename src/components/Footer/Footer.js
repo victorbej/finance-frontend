@@ -13,12 +13,11 @@ const theme = createTheme({
 function Copyright() {
     return (
         <Typography variant="body2" color="text.secondary" align="center">
-            {'Copyright © '}
+            {'by '}
             <Link color="inherit" href="https://github.com/victorbej">
                 Victor Bej
             </Link>{' '}
             {new Date().getFullYear()}
-            {'.'}
         </Typography>
     );
 }
