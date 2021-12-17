@@ -1,5 +1,7 @@
+import Box from '@mui/material/Box';
+import Button from '@mui/material/Button';
+
 import React from "react";
-import classes from './Targets.module.scss'
 
 
 const listOfTargets = [
@@ -12,6 +14,7 @@ const listOfTargets = [
     { id: 6, name: "Вложиться в недвижимость" },
     { id: 7, name: "Разбогатеть" }
 ];
+
 
 function Targets() {
     const [currentTarget, setCurrentTarget] = React.useState([]);
@@ -26,16 +29,20 @@ function Targets() {
 
     return (
         <div>
-            <div className={classes.buttonContainer}>
-                {listOfTargets.map((task) => (
-                    <button className={classes.button} key={task.id} onClick={() => buttonHandler(task)}>
-                        {task.name}
-                    </button>
-                ))}
-            </div>
+            <Box sx={{ '& button': { m: 1 }, margin: '2em' }}>
+                <div>
+                    {listOfTargets.map((task) => (
+                        <Button key={task.id} onClick={() => buttonHandler(task)} variant="contained" size="large">
+                            {task.name}
+                        </Button>
+                    ))}
+                </div>
+            </Box>
             <div>
                 {currentTarget.map((item, index) => (
-                    <div key={item.id}>{index + 1}. {item.name}</div>
+                    <div key={item.id}>
+                        {index + 1}. {item.name}
+                    </div>
                 ))}
             </div>
         </div>
