@@ -1,4 +1,5 @@
 import React from 'react';
+import CountLikes from './CountLikes';
 import { styled } from '@mui/material/styles';
 import Card from '@mui/material/Card';
 import CardHeader from '@mui/material/CardHeader';
@@ -10,7 +11,6 @@ import Avatar from '@mui/material/Avatar';
 import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
 import { red } from '@mui/material/colors';
-import FavoriteIcon from '@mui/icons-material/Favorite';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import DeleteIcon from '@mui/icons-material/Delete';
 
@@ -29,7 +29,7 @@ function PostLists(props) {
 
     const [expanded, setExpanded] = React.useState(false);
 
-    const handleExpandClick = () => {
+    const handleExpandClick = (e) => {
         setExpanded(!expanded);
     };
 
@@ -37,7 +37,7 @@ function PostLists(props) {
         <ul>
             {props.posts.map((post, index) =>
                 <li key={index}>
-                    <Card sx={{ maxWidth: '100vh', margin: 'auto' }}>
+                    <Card sx={{ maxWidth: '100vh', margin: 'auto', marginBottom: '1em' }}>
                         <CardHeader
                             avatar={
                                 <Avatar sx={{ bgcolor: red[500] }} aria-label="recipe">
@@ -60,13 +60,11 @@ function PostLists(props) {
                         />
                         <CardContent>
                             <Typography variant="body2" color="text.secondary">
-                                Скоро здесь будет дополнительный текст
+                                Имя Автора
                             </Typography>
                         </CardContent>
                         <CardActions disableSpacing>
-                            <IconButton aria-label="add to favorites">
-                                <FavoriteIcon />
-                            </IconButton>
+                            <CountLikes />
                             <ExpandMore
                                 expand={expanded}
                                 onClick={handleExpandClick}
