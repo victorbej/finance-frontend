@@ -1,0 +1,25 @@
+.container {
+    background-color: rgba(255,255,255,.05);;
+    border-radius: 20px;
+}
+
+.wrapper {
+    padding-left: .5em;
+}
+
+.title {
+    font-size: 1.5em;
+    margin: 1em auto;
+}
+
+.body {
+    font-size: 1em;
+    margin: 0 auto 1em;
+}
+
+.input {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    margin: 0 auto 1em;
+}
